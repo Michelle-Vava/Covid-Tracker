@@ -5,8 +5,11 @@ using System.Threading.Tasks;
 
 namespace API.Models
 {
-    public class HttpClient
+    public class Info
     {
+        public string country { get; set; }
+
+        public string confirmed {get;set;}
 
     }
 }
